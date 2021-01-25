@@ -72,3 +72,7 @@ firestore*
 remoteconfig.template.json
 storage.rules
 database.rules.json
+
+# React
+aidan-planner/src/credentials.json
+aidan-planner/build/*

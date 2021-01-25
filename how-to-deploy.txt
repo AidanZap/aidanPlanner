@@ -1,0 +1,9 @@
+aidanPlanner deploy
+--------------------------------------------------------
+Structure: React app is housed inside firebase app
+	-The firebase.json file routes to the react-app's build folder, which will have the compiled website ready to go
+
+Deploying: The react-app has to first be compiled inside it's directory with npm, then the firebase app can be deployed
+	-Within aidan-planner, enter "npm run build"
+	-To deploy local, enter "firebase serve --only functions,hosting" within the parent dir
+	-To deploy, run "firebase deploy" within the parent dir
